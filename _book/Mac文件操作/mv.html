@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>cp命令 · Mac Command</title>
+        <title>mv命令 · Mac Command</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="rm.html" />
     
-    
-    <link rel="prev" href="more.html" />
+    <link rel="prev" href="rm.html" />
     
 
     </head>
@@ -142,7 +140,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.3" data-path="cp.html">
+        <li class="chapter " data-level="1.2.3" data-path="cp.html">
             
                 <a href="cp.html">
             
@@ -168,7 +166,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="mv.html">
+        <li class="chapter active" data-level="1.2.5" data-path="mv.html">
             
                 <a href="mv.html">
             
@@ -216,7 +214,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >cp命令</a>
+        <a href=".." >mv命令</a>
     </h1>
 </div>
 
@@ -231,20 +229,16 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="cp&#x547D;&#x4EE4;">cp&#x547D;&#x4EE4;</h1>
-<p><code>cp</code>&#x547D;&#x4EE4;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x590D;&#x5236;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;&#x3002;</p>
-<h2 id="&#x628A;1js&#x6587;&#x4EF6;&#x590D;&#x5236;&#x5230;documents&#x76EE;&#x5F55;">&#x628A;1.js&#x6587;&#x4EF6;&#x590D;&#x5236;&#x5230;documents&#x76EE;&#x5F55;</h2>
-<pre><code class="lang-powershell">cp <span class="hljs-number">1</span>.js ../
+                                <h1 id="mv&#x547D;&#x4EE4;">mv&#x547D;&#x4EE4;</h1>
+<p><code>mv</code>&#x547D;&#x4EE4;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x6539;&#x53D8;&#x6587;&#x4EF6;&#x540D;&#x6216;&#x6240;&#x5728;&#x76EE;&#x5F55;&#x3002;</p>
+<h2 id="&#x628A;1js&#x6587;&#x4EF6;&#x91CD;&#x547D;&#x540D;&#x4E3A;3js">&#x628A;1.js&#x6587;&#x4EF6;&#x91CD;&#x547D;&#x540D;&#x4E3A;3.js</h2>
+<pre><code class="lang-powershell">mv <span class="hljs-number">1</span>.js <span class="hljs-number">3</span>.js
 </code></pre>
-<p><img src="../img/cp_1.png" alt="png"></p>
-<h2 id="&#x628A;test&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x6240;&#x6709;&#x540E;&#x7F00;&#x540D;&#x4E3A;html&#x7684;&#x6587;&#x4EF6;&#x590D;&#x5236;&#x5230;test1&#x6587;&#x4EF6;&#x5939;&#x5185;">&#x628A;Test&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x6240;&#x6709;&#x540E;&#x7F00;&#x540D;&#x4E3A;.html&#x7684;&#x6587;&#x4EF6;&#x590D;&#x5236;&#x5230;test1&#x6587;&#x4EF6;&#x5939;&#x5185;</h2>
-<pre><code class="lang-powershell">cp *.html ./test1
+<p><img src="../img/mv_1.png" alt="png"></p>
+<h2 id="&#x628A;test&#x6587;&#x4EF6;&#x5939;&#x79FB;&#x5230;documents&#x6587;&#x4EF6;&#x5939;&#x5185;">&#x628A;Test&#x6587;&#x4EF6;&#x5939;&#x79FB;&#x5230;documents&#x6587;&#x4EF6;&#x5939;&#x5185;</h2>
+<pre><code class="lang-powershell">mv Test documents
 </code></pre>
-<p><img src="../img/cp_2.png" alt="png"></p>
-<h2 id="&#x628A;test&#x6587;&#x4EF6;&#x5939;&#x5185;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x53CA;&#x5176;&#x53CA;&#x5176;&#x5B50;&#x76EE;&#x5F55;&#x5168;&#x90E8;&#x590D;&#x5236;&#x5230;documents&#x6587;&#x4EF6;&#x5939;&#x5185;&#xFF0C;&#x5982;&#x679C;documents&#x6587;&#x4EF6;&#x5939;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x5219;&#x65B0;&#x5EFA;&#xFF0C;&#x518D;&#x590D;&#x5236;&#x3002;">&#x628A;Test&#x6587;&#x4EF6;&#x5939;&#x5185;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x53CA;&#x5176;&#x53CA;&#x5176;&#x5B50;&#x76EE;&#x5F55;&#x5168;&#x90E8;&#x590D;&#x5236;&#x5230;documents&#x6587;&#x4EF6;&#x5939;&#x5185;&#xFF0C;&#x5982;&#x679C;documents&#x6587;&#x4EF6;&#x5939;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x5219;&#x65B0;&#x5EFA;&#xFF0C;&#x518D;&#x590D;&#x5236;&#x3002;</h2>
-<pre><code class="lang-powershell">cp -r . ../documents
-</code></pre>
-<p><img src="../img/cp_3.png" alt="png"></p>
+<p><img src="../img/mv_2.png" alt="png"></p>
 
                                 
                                 </section>
@@ -272,14 +266,10 @@
 
             
                 
-                <a href="more.html" class="navigation navigation-prev " aria-label="Previous page: more命令">
+                <a href="rm.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: rm命令">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="rm.html" class="navigation navigation-next " aria-label="Next page: rm命令">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -288,7 +278,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"cp命令","level":"1.2.3","depth":2,"next":{"title":"rm命令","level":"1.2.4","depth":2,"path":"Mac文件操作/rm.md","ref":"Mac文件操作/rm.md","articles":[]},"previous":{"title":"more命令","level":"1.2.2","depth":2,"path":"Mac文件操作/more.md","ref":"Mac文件操作/more.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"lanuguage":"zh","variables":{},"title":"Mac Command","gitbook":"*","description":"Mac终端命令大全"},"file":{"path":"Mac文件操作/cp.md","mtime":"2017-10-01T01:25:26.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-01T01:10:05.829Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"mv命令","level":"1.2.5","depth":2,"previous":{"title":"rm命令","level":"1.2.4","depth":2,"path":"Mac文件操作/rm.md","ref":"Mac文件操作/rm.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"lanuguage":"zh","variables":{},"title":"Mac Command","gitbook":"*","description":"Mac终端命令大全"},"file":{"path":"Mac文件操作/mv.md","mtime":"2017-10-01T02:58:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-01T01:10:05.829Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
