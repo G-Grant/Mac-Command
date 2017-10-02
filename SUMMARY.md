@@ -6,3 +6,5 @@
   * [cp命令](Mac文件操作/cp.md)
   * [rm命令](Mac文件操作/rm.md)
   * [mv命令](Mac文件操作/mv.md)
+  * [find命令](Mac文件操作/find.md)
+  * [file命令](Mac文件操作/file.md)
