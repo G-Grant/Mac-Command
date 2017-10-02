@@ -2,5 +2,5 @@
     "title": "Mac Command",
     "description": "Mac终端命令大全",
     "lanuguage": "zh",
-    "plugins": []
+    "plugins": ["expandable-chapters", "splitter"]
 }
