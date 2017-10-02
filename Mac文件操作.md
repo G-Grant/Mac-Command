@@ -9,4 +9,4 @@
 | [mv](Mac文件操作/mv.md) | 改变文件名或所在目录 |
 | [find](Mac文件操作/find.md) | 使用匹配表达式查找文件 |
 | [file](Mac文件操作/file.md) | 显示文件类型 |
-| open | 使用默认的程序打开文件 |
+| [open](Mac文件操作/open.md) | 使用默认的程序打开文件 |

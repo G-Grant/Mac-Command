@@ -10,7 +10,15 @@
   * [mv命令](Mac文件操作/mv.md)
   * [find命令](Mac文件操作/find.md)
   * [file命令](Mac文件操作/file.md)
-  * 持续更新中...
+  * [open命令](Mac文件操作/open.md)
+* [Mac目录操作](Mac目录操作.md)
+  * [cd命令](Mac目录操作/cd.md)
+  * [dircmp命令](Mac目录操作/dircmp.md)
+  * [ls命令](Mac目录操作/ls.md)
+  * [mkdir命令](Mac目录操作/mkdir.md)
+  * [mvdir命令](Mac目录操作/mvdir.md)
+  * [pwd命令](Mac目录操作/pwd.md)
+  * [rmdir命令](Mac目录操作/rmdir.md)
 
 ## 参考文献
 
