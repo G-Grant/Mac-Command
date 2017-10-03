@@ -22,4 +22,14 @@
 
 * [Mac终端命令大全](http://www.jianshu.com/p/3291de46f3ff)
 
+## 使用方法
+
+> 使用之前，请先全局安装`gitbook-cli`。
+
+```git
+git clone git@github.com:GrantColeman/Mac-Command.git
+
+gitbook install
+```
+
 如有错误之处，烦请指出，联系方式<grantcolemans@gmail.com>
